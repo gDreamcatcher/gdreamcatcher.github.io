@@ -1,10 +1,10 @@
 # Site settings
 title: gDream Blog
-SEOTitle: 高森的博客 | Dream Blog
+SEOTitle: 高森的博客 | gDream Blog
 header-img: img/home-bg.jpg
 email: 824792611@qq.com
-description: "关于程序与设计、算法 | 高森 Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @gDream 的个人博客，与你一起发现更大的世界。"
-keyword: "博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+description: "coding 人生 | 高森 Web & Distributed Design，Software Engineer | 这里是 @gdreamcatcher 的个人博客，与你一起发现更大的世界。"
+keyword: "博客, 个人网站, 互联网, Web, 后端, 分布式, 数据结构"
 url: "https://gdreamcatcher.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     
+weibo_username:     3210448263
 zhihu_username:     sui-feng-44-61-14 
 github_username:    gdreamcatcher
 twitter_username:   gdreamcatcher
@@ -113,7 +113,7 @@ page-mathjax: false
 # Friends
 friends: [
     {
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
+        title: "黄玄",
+        href: "https://huangxuan.me/"
     }
 ]
