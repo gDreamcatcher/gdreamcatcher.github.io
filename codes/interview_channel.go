@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 	"time"
+	"unsafe"
 )
 
 func channelDemo1() {
@@ -67,10 +69,25 @@ func structDemo() {
 	fmt.Println(mp["x"].name) // three
 }
 
+func stringToBytes(s string) []byte {
+	b := *(*[]byte)(unsafe.Pointer(
+		&struct {
+			string
+			Cap int
+		}{s, len(s)}))
+	return b
+}
+
+func bytesToString(b []byte) string {
+	s := *(*string)(unsafe.Pointer(&b))
+	return s
+}
+
 func main() {
 	// channelDemo3()
-	func() {
-		fmt.Println("func no name")
-	}()
-	structDemo()
+	// func() {
+	// 	fmt.Println("func no name")
+	// }()
+	// structDemo()
+	stringToBytes()
 }
