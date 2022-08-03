@@ -88,7 +88,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "高森，编程语言/编译器初心者 <br> An UI/Frontend dev & designer accidentally growing into a compiler/PL hacker."
+sidebar-about-description: "高森，一个普通的码农."
 sidebar-avatar: /img/avatar-dream.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
